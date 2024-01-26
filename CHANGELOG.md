@@ -16,89 +16,43 @@ Following up on the feedback from Grapescope for Milestone 1, this issue serves 
 
 **4. Follows GitHub flow version control workflow**:  - Division of work on many branches is not ideal (branches are too big - they should be small independent units of work). - Many contributions did not go through code review via a pull-request.
 
-**5. GitHub release**: Grading comment:Release name mildly deviates from instructions on how to name it. Tiff's comments about version # on course Slack channel: "0.1.0 means new features, and because there is not a 1 in the first digit it means it is quite "new" and maybe not a completely done version of the project. That suits where we land we get a first working version of a package. 1.0.0 is a major version release and indicates breaking changes to a project (meaning it is not backwards compatible)."
+**5. GitHub release**: Release name mildly deviates from instructions on how to name it. Tiff's comments about version # on course Slack channel: "0.1.0 means new features, and because there is not a 1 in the first digit it means it is quite "new" and maybe not a completely done version of the project. That suits where we land we get a first working version of a package. 1.0.0 is a major version release and indicates breaking changes to a project (meaning it is not backwards compatible)."
 
 **6. GitHub issues for communication**: GitHub issues were used somewhat for project communication.
 
 ### 🚀Implemented Enhancements
 
-
+- Feedback 1: Updated README includes a comprehensive comparison and explanation of our package's unique features and functionalities, alongside how it complements and differs from Altair's offerings. Please see this [commit]() for details.
+- Feedback 2: Refined the parameter design in our functions, ensuring critical parameters like `cols` are explicitly defined for enhanced clarity. Now, parameters are distinctly separated into `x` and `y` to specify the respective axes, offering a more intuitive and error-resistant interface. The refinements are refected in this [commit](). 
 
 ### 🗑️Deprecations and Removals
 
-
+- Feedback 4: We now ensure that useless and irrelated branches have been removed, and remaining branches are independent unit of work, facilitating better organization and efficiency. The active branches are listed [here](https://github.com/UBC-MDS/doeasyeda/branches).
 
 ### 💬Comments and Acknowledgements
 
+- Feedback 3: We wanted to share that Milestone 1 was completed collaboratively during a lab session, which occurred prior to the introduction of the project board tool in our course. This synchronous collaboration led us to manage the tasks internally without the need for separate issue tracking at that stage. However, we completely agree with the benefits of using GitHub's project board to enhance visibility and accountability within the team. With this in mind, we make sure that we implemented this approach for Milestone 2 and future milestones.
+- Feedback 5: Rregarding the versioning of GitHub releases, as well as Tiff's valuable insights shared on the Slack channel. we understand the importance of adhering to semantic versioning standards and appreciate the clarity provided on the subject. We acknowledge that our recent release of milestone 1 naming, "1.0.0", was an oversight on our part and not in full alignment with the conventional guidelines outlined for version numbers. This was an inadvertent step before we were fully aware of the recommended practices. Having already utilized "2.1.0" for our Milestone 2 release, we aim to maintain consistency for the upcoming Milestone 3, which will, therefore, be versioned as "2.2.0". This will help avoid any confusion and keep a sequential order in our release history.
+- Feedback 6:
 
 
-
-## Release v2.0.0 (01/20/2024)
+## Release v2.1.0 (01/20/2024)
 
 ### Feedback on Milestone 2 ([issue #]())
-
 
 ### 🚀Implemented Enhancements
 
 
-
 ### 🗑️Deprecations and Removals
 
 
-
 ### 💬Comments and Acknowledgements
-
-
-
-
-```
-#### Documentation
-
-The package includes all the following forms of documentation:
-
-- [ ] **A statement of need** clearly stating problems the software is designed to solve and its target audience in README.
-- [ ] **Installation instructions:** for the development version of the package and any non-standard dependencies in README.
-- [ ] **Vignette(s)** demonstrating major functionality that runs successfully locally.
-- [ ] **Function Documentation:** for all user-facing functions.
-- [ ] **Examples** for all user-facing functions.
-- [ ] **Community guidelines** including contribution guidelines in the README or CONTRIBUTING.
-- [ ] **Metadata** including author(s), author e-mail(s), a url, and any other relevant metadata e.g., in a `pyproject.toml` file or elsewhere.
-
-Readme file  requirements
-The package meets the readme requirements below:
-
-- [ ] Package has a README.md file in the root directory.
-
-The README should include, from top to bottom:
-
-- [ ] The package name
-- [ ] Badges for:
-    - [ ] Continuous integration and test coverage,
-    - [ ] Docs building (if you have a documentation website),
-    - [ ] A [repostatus.org](https://www.repostatus.org/) badge,
-    - [ ] Python versions supported,
-    - [ ] Current package version (on PyPI / Conda).
-
-*NOTE: If the README has many more badges, you might want to consider using a table for badges: [see this example](https://github.com/ropensci/drake). Such a table should be more wide than high. (Note that the a badge for pyOpenSci peer-review will be provided upon acceptance.)*
-
-- [ ] Short description of package goals.
-- [ ] Package installation instructions
-- [ ] Any additional setup required to use the package (authentication tokens, etc.)
-- [ ] Descriptive links to all vignettes. If the package is small, there may only be a need for one vignette which could be placed in the README.md file.
-    - [ ] Brief demonstration of package usage (as it makes sense - links to vignettes could also suffice here if package description is clear)
-- [ ] Link to your documentation website.
-- [ ] If applicable, how the package compares to other similar packages and/or how it relates to other packages in the scientific ecosystem.
-- [ ] Citation information
-```
 
 
 
 ### Feedback from Peer Review ([issue #]())
 
-#### Review Comments: 
-
-
-
+#### Review Comments:
 
 ### 🚀Implemented Enhancements
 
