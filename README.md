@@ -19,7 +19,13 @@
 
 ## Contributors
 
-[Riya Eliza](https://github.com/riyaeliza123), [Hina Bandukwala](https://github.com/hbandukw), [Dan Zhang](https://github.com/wqxxzd) and [Doris Wang](https://github.com/MDSFusionist)
+[Riya Eliza](https://github.com/riyaeliza123), UBC-MDS [✉️]()
+
+[Hina Bandukwala](https://github.com/hbandukw),  UBC-MDS [✉️]()
+
+[Dan Zhang](https://github.com/wqxxzd), UBC-MDS [✉️]()
+
+[Doris Wang](https://github.com/MDSFusionist), UBC.MDS [✉️](mailto:doris531@student.ubc.ca)
 
 ## Installation
 
@@ -53,11 +59,10 @@ This package includes four main function:
 
 ## Why doeasyeda?
 
-**doeasyeda** positions itself as a valuable addition to the Python ecosystem, particularly in the realm of data visualization and EDA. While it shares its fundamental objective with existing packages like [pandas-profiling](https://github.com/ydataai/ydata-profiling) and [Dtale](https://pypi.org/project/dtale/), which provides comprehensive EDA reports with a single line of code, **doeasyeda** differentiates itself by focusing on customizable, individual plot generation. While pandas-profing is excellent for generating automated detailed reports on entire datasets, Dtale integrates advanced libraries like Plotly and Seaborn , **doeasyeda** allows users more control and flexibility in visualizing specific aspects of their data through its range of plotting functions from altair library. **doeasyeda** has the following key features:
+**doeasyeda** positions itself as a valuable addition to the Python ecosystem, particularly in the realm of data visualization and EDA. While it shares its fundamental objective with existing packages like [pandas-profiling](https://github.com/ydataai/ydata-profiling) and [Dtale](https://pypi.org/project/dtale/), which provides comprehensive EDA reports with a single line of code, **doeasyeda** differentiates itself by focusing on customizable, individual plot generation. While pandas-profing is excellent for generating automated detailed reports on entire datasets, Dtale integrates advanced libraries like Plotly and Seaborn , **doeasyeda** allows users more control and flexibility in visualizing specific aspects of their data through its range of plotting functions from [altair ](https://altair-viz.github.io/index.html)library. Compared to altair, **doeasyeda** has the following key features:
 
-* **User-Friendly** : **doeasyeda** is built with simplicity in mind. The functions are easy to use, allowing users to generate insightful plots with minimal coding effort.
-* **Versatile Plotting Functions** : The package includes a variety of plotting functions, each tailored to display data effectively. These functions cater to different data types and visualization needs.
-* **Focus on Standard EDA Plots** : The package emphasizes standard EDA plots, ensuring that users can cover the fundamental aspects of data visualization in their analysis.
+* **Streamlined Simplicity** : `doeasyeda` stands out with its intuitive design, offering a user-friendly alternative to more complex packages like Altair. It enables users to produce comprehensive plots through straightforward, one-liner functions, making the transition from data to insights both efficient and effortless.
+* **Tailored for EDA Efficiency** : Unlike the broad-spectrum approach of Altair, `doeasyeda` hones in on the essential plots used in EDA, providing a curated set of tools that streamline the visualization process. This dedicated focus allows for quick generation of standard EDA plots, facilitating a more efficient analysis workflow without the overhead of more intricate coding structures.
 
 ## Developer Note
 
@@ -106,6 +111,7 @@ df = pd.read_csv('gapminder.csv')
 create_scatter_plot(df, 'continent', 'lifeExp', color='continent', 
                     title='Life Exp by Continent', x_title= 'Continent', y_title='Life Exp')
 ```
+
 <img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/scatterplot.png?raw=true" height="300">
 
 **Creating histogram:**
@@ -115,6 +121,7 @@ df_grouped1 = df.groupby(['continent'])['lifeExp'].sum().reset_index()
 create_hist_plot(df_grouped1, 'continent', 'lifeExp', color='continent', 
                  title='Average Life Exp by Continent', x_title= 'Continent', y_title='Average Life Exp')
 ```
+
 <img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/histplot.png?raw=true" height="300">
 
 **Creating area plot:**
@@ -124,6 +131,7 @@ df_grouped2 = df.groupby(['continent', 'year'])['population'].sum().reset_index(
 create_area_plot(df_grouped2, 'year', 'population', color='continent', 
                  title='Total Population by Continent', x_title= 'Continent', y_title='Total Population')
 ```
+
 <img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/areaplot.png?raw=true" height="300">
 
 **Creating line plot:**
@@ -135,13 +143,14 @@ df_grouped3['gdpPercap'] = df_grouped3['gdp']/df_grouped3['population']
 create_line_plot(df_grouped3, 'year', 'gdpPercap', color='continent', 
                  title=' GDP per capita by Continent', x_title= 'Continent', y_title='GDP per capita')
 ```
+
 <img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/lineplot.png?raw=true" height="300">
 
 ## Documentation
 
-Online documentation can be found [here]().
+Online documentation can be found [here](https://doeasyeda.readthedocs.io/en/latest/?badge=latest).
 
-Publishing on [TestPyPi]() and [PyPi]().
+Publishing on [TestPyPi]() and [PyPi]() (forthcoming)).
 
 ## Contributing
 
@@ -154,3 +163,13 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 ## Credits
 
 `doeasyeda` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
+## Reference
+
+Jacob VanderPlas, Brian Granger, Jeffrey Heer, Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Eitan Lees, Ilia Timofeev, Ben Welsh, & Scott Sievert (2018). Altair: Interactive Statistical Visualizations for Python*. Journal of Open Source Software,  *3* (32), 1057.
+
+*Simon Brugman. (2019). ydata-profiling: Exploratory Data Analysis for Python. .
+
+dtale · PyPI. https://pypi.org/project/dtale/
+
+*Download the data | Gapminder* . (n.d.). Retrieved from https://www.gapminder.org/data/
