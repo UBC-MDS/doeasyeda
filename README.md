@@ -1,7 +1,7 @@
 # doeasyeda
 
 <figure>
-    <img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/logo2.png" alt="Alt text for image" width="200" height="200">
+    <img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/logo2.png?raw=true" alt="Alt text for image" width="200" height="200">
 </figure>
 
 [![ci-cd](https://github.com/UBC-MDS/doeasyeda/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/doeasyeda/actions/workflows/ci-cd.yml) [![Python 3.9.0](https://img.shields.io/badge/python-3.9.0-blue.svg)](https://www.python.org/downloads/release/python-390/) [![codecov](https://codecov.io/gh/UBC-MDS/doeasyeda/branch/main/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/doeasyeda) [![Documentation Status](https://readthedocs.org/projects/stock_analyzer/badge/?version=latest)](https://doeasyeda.readthedocs.io/en/latest/?badge=latest) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![version](https://img.shields.io/github/v/release/UBC-MDS/doeasyeda) ![release](https://img.shields.io/github/release-date/UBC-MDS/doeasyeda)
@@ -106,7 +106,7 @@ df = pd.read_csv('gapminder.csv')
 create_scatter_plot(df, 'continent', 'lifeExp', color='continent', 
                     title='Life Exp by Continent', x_title= 'Continent', y_title='Life Exp')
 ```
-<img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/scatterplot.png" height="300">
+<img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/scatterplot.png?raw=true" height="300">
 
 **Creating histogram:**
 
@@ -115,7 +115,7 @@ df_grouped1 = df.groupby(['continent'])['lifeExp'].sum().reset_index()
 create_hist_plot(df_grouped1, 'continent', 'lifeExp', color='continent', 
                  title='Average Life Exp by Continent', x_title= 'Continent', y_title='Average Life Exp')
 ```
-<img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/histplot.png" height="300">
+<img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/histplot.png?raw=true" height="300">
 
 **Creating area plot:**
 
@@ -124,7 +124,7 @@ df_grouped2 = df.groupby(['continent', 'year'])['population'].sum().reset_index(
 create_area_plot(df_grouped2, 'year', 'population', color='continent', 
                  title='Total Population by Continent', x_title= 'Continent', y_title='Total Population')
 ```
-<img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/areaplot.png" height="300">
+<img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/areaplot.png?raw=true" height="300">
 
 **Creating line plot:**
 
@@ -135,7 +135,7 @@ df_grouped3['gdpPercap'] = df_grouped3['gdp']/df_grouped3['population']
 create_line_plot(df_grouped3, 'year', 'gdpPercap', color='continent', 
                  title=' GDP per capita by Continent', x_title= 'Continent', y_title='GDP per capita')
 ```
-<img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/lineplot.png" height="300">
+<img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/lineplot.png?raw=true" height="300">
 
 ## Documentation
 
