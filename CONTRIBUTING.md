@@ -90,7 +90,7 @@ We appreciate as much detail as possible so we can replicate and address the bug
 2. Clone your fork locally:
 
    ```
-   git clone git@github.com:UBC-MDS/doeasyeda.git
+   git clone git@github.com:your-username/doeasyeda.git
    ```
 3. Install your local copy with Poetry, this is how you set up your fork for local development:
 
