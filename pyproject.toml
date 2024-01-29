@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "doeasyeda"
-version = "0.1.0"
+version = "2.2.1"
 description = "This package creates standard EDA plots for your data."
 authors = ["Riya Eliza"]
 license = "MIT"
