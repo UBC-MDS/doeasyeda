@@ -19,13 +19,13 @@
 
 ## Contributors
 
-[Riya Eliza](https://github.com/riyaeliza123), UBC-MDS [✉️]()
+[Riya Eliza](https://github.com/riyaeliza123), UBC-MDS [✉️](mailto:riya2023@student.ubc.ca)
 
-[Hina Bandukwala](https://github.com/hbandukw),  UBC-MDS [✉️]()
+[Hina Bandukwala](https://github.com/hbandukw),  UBC-MDS [✉️](mailto:hinab@student.ubc.ca)
 
-[Dan Zhang](https://github.com/wqxxzd), UBC-MDS [✉️]()
+[Dan Zhang](https://github.com/wqxxzd), UBC-MDS [✉️](mailto:wqxxzd@student.ubc.ca)
 
-[Doris Wang](https://github.com/MDSFusionist), UBC.MDS [✉️](mailto:doris531@student.ubc.ca)
+[Doris Wang](https://github.com/MDSFusionist), UBC-MDS [✉️](mailto:doris531@student.ubc.ca)
 
 ## Installation
 
