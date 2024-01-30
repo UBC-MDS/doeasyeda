@@ -178,6 +178,9 @@ Interested in contributing? Check out the [contributing guidelines](https://doea
 
 `doeasyeda` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
 
+## Code of Conduct
+The Code of Conduct can be found [`here`](https://doeasyeda.readthedocs.io/en/latest/conduct.html#).
+
 ## Reference
 
 Jacob VanderPlas, Brian Granger, Jeffrey Heer, Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Eitan Lees, Ilia Timofeev, Ben Welsh, & Scott Sievert (2018). Altair: Interactive Statistical Visualizations for Python*. Journal of Open Source Software,  *3* (32), 1057.
