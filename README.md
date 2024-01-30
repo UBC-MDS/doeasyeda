@@ -64,30 +64,6 @@ This package includes four main function:
 * **Streamlined Simplicity** : `doeasyeda` stands out with its intuitive design, offering a user-friendly alternative to more complex packages like Altair. It enables users to produce comprehensive plots through straightforward, one-liner functions, making the transition from data to insights both efficient and effortless.
 * **Tailored for EDA Efficiency** : Unlike the broad-spectrum approach of Altair, `doeasyeda` hones in on the essential plots used in EDA, providing a curated set of tools that streamline the visualization process. This dedicated focus allows for quick generation of standard EDA plots, facilitating a more efficient analysis workflow without the overhead of more intricate coding structures.
 
-## Developer Note
-
-Direct to the root of the project repository
-
-1. To create a new virtual environment in Conda with Python, use the following commands in the terminal :
-
-```
-$ conda create --name doeasyeda python=3.9.0 -y
-```
-
-2. To use this new environment for developing, we need to activate the virtual environment:
-
-```
-$ conda activate doeasyeda
-```
-
-3. To install the needed packages via poetry, run the following command. If poetry hasn't been set up yet, please following [this link](https://python-poetry.org/docs/) for installtion.
-
-```
-$ poetry install
-```
-
-4. The set up is done, you are free to use the doeasyeda package now! Please check the function section above on how to use the package.
-
 ## Usage
 
 Our package primarily utilizes the gapminder dataset to demonstrate the effectiveness and versatility of our plotting functions. However, the functions within **doeasyeda** are designed to be flexible and can be applied to a wide range of datasets, making this package a valuable tool for any data scientist or analyst looking to conduct comprehensive EDA.
@@ -145,6 +121,41 @@ create_line_plot(df_grouped3, 'year', 'gdpPercap', color='continent',
 ```
 
 <img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/lineplot.png?raw=true" height="300">
+
+## Developer Note
+
+Direct to the root of the project repository
+
+1. To create a new virtual environment in Conda with Python, use the following commands in the terminal :
+
+```
+$ conda create --name doeasyeda python=3.9.0 -y
+```
+
+2. To use this new environment for developing, we need to activate the virtual environment:
+
+```
+$ conda activate doeasyeda
+```
+
+3. To install the needed packages via poetry, run the following command. If poetry hasn't been set up yet, please following [this link](https://python-poetry.org/docs/) for installtion.
+
+```
+$ poetry install
+```
+
+4. The set up is done, you are free to run the following test. Execute the following in the project root directory to run the unit tests of the package.
+
+```shell
+$ poetry run pytest
+```
+
+    To check the code covergage reporting:
+
+```shell
+$ poetry run pytest --cov=doeasyeda
+```
+
 
 ## Documentation
 
