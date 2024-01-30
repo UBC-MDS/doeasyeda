@@ -168,7 +168,7 @@ Publishing on [TestPyPi]() and [PyPi]() (forthcoming)).
 
 ## Contributing
 
-Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+Interested in contributing? Check out the [contributing guidelines](https://doeasyeda.readthedocs.io/en/latest/contributing.html#external-contribution-guidelines). Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
 
 ## License
 
