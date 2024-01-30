@@ -2,7 +2,7 @@
 name = "doeasyeda"
 version = "2.2.1"
 description = "This package creates standard EDA plots for your data."
-authors = ["Riya Eliza"]
+authors = ["Riya Eliza", "Hina Bandukwala", "Dan Zhang", "Doris Wang"]
 license = "MIT"
 readme = "README.md"
 

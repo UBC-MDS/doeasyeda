@@ -6,8 +6,8 @@
 
 [![ci-cd](https://github.com/UBC-MDS/doeasyeda/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/doeasyeda/actions/workflows/ci-cd.yml) [![Python 3.9.0](https://img.shields.io/badge/python-3.9.0-blue.svg)](https://www.python.org/downloads/release/python-390/) [![codecov](https://codecov.io/gh/UBC-MDS/doeasyeda/branch/main/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/doeasyeda) [![Documentation Status](https://readthedocs.org/projects/stock_analyzer/badge/?version=latest)](https://doeasyeda.readthedocs.io/en/latest/?badge=latest) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![version](https://img.shields.io/github/v/release/UBC-MDS/doeasyeda) ![release](https://img.shields.io/github/release-date/UBC-MDS/doeasyeda)
 
-**doeasyeda** offers user-friendly functions for creating standard EDA plots for your data.
----------------------------------------------------------------------------------------
+**doeasyeda**
+---------
 
 [Installation](#Installation) | [Functions](#Functions) | [Why doeasyeda](#Why-doeasyeda) | [Usage](#Usage)
 
@@ -63,6 +63,37 @@ This package includes four main function:
 
 * **Streamlined Simplicity** : `doeasyeda` stands out with its intuitive design, offering a user-friendly alternative to more complex packages like Altair. It enables users to produce comprehensive plots through straightforward, one-liner functions, making the transition from data to insights both efficient and effortless.
 * **Tailored for EDA Efficiency** : Unlike the broad-spectrum approach of Altair, `doeasyeda` hones in on the essential plots used in EDA, providing a curated set of tools that streamline the visualization process. This dedicated focus allows for quick generation of standard EDA plots, facilitating a more efficient analysis workflow without the overhead of more intricate coding structures.
+
+## Developer Note
+
+Direct to the root of the project repository
+
+1. To create a new virtual environment in Conda with Python, use the following commands in the terminal :
+
+```
+$ conda create --name doeasyeda python=3.9.0 -y
+```
+
+2. To use this new environment for developing, we need to activate the virtual environment:
+
+```
+$ conda activate doeasyeda
+```
+
+3. To install the needed packages via poetry, run the following command. If poetry hasn't been set up yet, please following [this link](https://python-poetry.org/docs/) for installtion.
+
+```
+$ poetry install
+```
+
+4. To test the package, please run the following command
+
+```
+$ pytest tests/
+$ pytest tests/ --cov=doeasyeda --cov-report=xml
+```
+
+5. The set up is done, you are free to use the doeasyeda package now! Please check the function section above on how to use the package.
 
 ## Usage
 
@@ -121,41 +152,6 @@ create_line_plot(df_grouped3, 'year', 'gdpPercap', color='continent',
 ```
 
 <img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/lineplot.png?raw=true" height="300">
-
-## Developer Note
-
-Direct to the root of the project repository
-
-1. To create a new virtual environment in Conda with Python, use the following commands in the terminal :
-
-```
-$ conda create --name doeasyeda python=3.9.0 -y
-```
-
-2. To use this new environment for developing, we need to activate the virtual environment:
-
-```
-$ conda activate doeasyeda
-```
-
-3. To install the needed packages via poetry, run the following command. If poetry hasn't been set up yet, please following [this link](https://python-poetry.org/docs/) for installtion.
-
-```
-$ poetry install
-```
-
-4. The set up is done, you are free to run the following test. Execute the following in the project root directory to run the unit tests of the package.
-
-```shell
-$ poetry run pytest
-```
-
-    To check the code covergage reporting:
-
-```shell
-$ poetry run pytest --cov=doeasyeda
-```
-
 
 ## Documentation
 
