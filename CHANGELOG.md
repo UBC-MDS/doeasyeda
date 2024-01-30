@@ -2,6 +2,27 @@
 
 
 
+## v2.2.2 (2024-01-30)
+
+### Fix
+
+* fix: Address feedback by reviewer add all authors into the pyproject.toml ([`a3b9ff7`](https://github.com/UBC-MDS/doeasyeda/commit/a3b9ff78bc53751a6201d2cd99897bbb415ddfb1))
+
+* fix: Address feedback by reviewer test instruction added ([`40c04c6`](https://github.com/UBC-MDS/doeasyeda/commit/40c04c68e33a9f088ddd3c8d3145c3d2344b30d4))
+
+### Unknown
+
+* Merge pull request #63 from UBC-MDS/feedback-edits
+
+fix : addressing feedback, making subtitle just name of the package ([`a68b3c3`](https://github.com/UBC-MDS/doeasyeda/commit/a68b3c372baa6fff3aa4ce4c9bb20d6e4fb0e6e5))
+
+* Merge pull request #62 from UBC-MDS/documentation/review-changes
+
+fix: Address feedback by reviewer test instruction added ([`c4aa6f5`](https://github.com/UBC-MDS/doeasyeda/commit/c4aa6f57da82a4250ae6cb90782e2885c66c9c2e))
+
+* fix : addressing feedback, making subtitle just name of the package ([`3e66d88`](https://github.com/UBC-MDS/doeasyeda/commit/3e66d88b4cd7ee2651d9be8b10966cd070528384))
+
+
 ## v2.2.1 (2024-01-29)
 
 ### Fix
