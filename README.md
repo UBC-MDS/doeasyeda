@@ -41,10 +41,17 @@ This package offers four primary functions, each harnessing the power of the Alt
 
 This package includes four main function:
 
-1. `create_scatter_plot(df, x_col, y_col, size=60, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`: Generates a scatter plot using the Altair visualization library with various customization options.
-2. `create_hist_plot(df, x_col, y_col, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`: Generates histogram using the Altair visualization library with various customization options.
-3. `create_line_plot(df, x_col, y_col, size=1, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`: Generates a line plot using the Altair visualization library with various customization options.
-4. `create_area_plot(df, x_col, y_col, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`: Generates an area plot using the Altair visualization library with various customization options.
+1. `create_scatter_plot(df, x_col, y_col, size=60, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`
+Generates a scatter plot using the Altair visualization library with various customization options.
+
+2. `create_hist_plot(df, x_col, y_col, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`
+Generates histogram using the Altair visualization library with various customization options.
+
+3. `create_line_plot(df, x_col, y_col, size=1, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`
+Generates a line plot using the Altair visualization library with various customization options.
+
+4. `create_area_plot(df, x_col, y_col, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`
+Generates an area plot using the Altair visualization library with various customization options.
 
 ### Common Parameters:
 
