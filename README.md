@@ -86,7 +86,13 @@ $ conda activate doeasyeda
 $ poetry install
 ```
 
-4. The set up is done, you are free to use the doeasyeda package now! Please check the function section above on how to use the package.
+4. To test the package, please run the following command
+```
+$ pytest tests/
+$ pytest tests/ --cov=doeasyeda --cov-report=xml
+```
+
+5. The set up is done, you are free to use the doeasyeda package now! Please check the function section above on how to use the package.
 
 ## Usage
 
