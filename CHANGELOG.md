@@ -2,11 +2,28 @@
 
 
 
+## v2.2.3 (2024-01-30)
+
+### Fix
+
+* fix: addressed by reviewer, move developer note after usage ([`5abc753`](https://github.com/UBC-MDS/doeasyeda/commit/5abc753ee73e3a09a37b5969e065245fc5ac278e))
+
+### Unknown
+
+* Merge pull request #64 from UBC-MDS/documentation/readme-changelog-mds
+
+Update readme to address PR issues ([`a9f93e3`](https://github.com/UBC-MDS/doeasyeda/commit/a9f93e3d5489dea795a543d4373950caca34ebe6))
+
+
 ## v2.2.2 (2024-01-30)
 
 ### Fix
 
+* fix: addressed by reviewer, add repo active badge ([`2424165`](https://github.com/UBC-MDS/doeasyeda/commit/24241654f912742a94b3e27cc2952aa2d16ddc02))
+
 * fix: Address feedback by reviewer add all authors into the pyproject.toml ([`a3b9ff7`](https://github.com/UBC-MDS/doeasyeda/commit/a3b9ff78bc53751a6201d2cd99897bbb415ddfb1))
+
+* fix: addressed by reviewer, seperate ecosystem context ([`3f43b14`](https://github.com/UBC-MDS/doeasyeda/commit/3f43b140250f76c21a6e38d6df588ce862aab5b1))
 
 * fix: Address feedback by reviewer test instruction added ([`40c04c6`](https://github.com/UBC-MDS/doeasyeda/commit/40c04c68e33a9f088ddd3c8d3145c3d2344b30d4))
 
@@ -21,6 +38,8 @@ fix : addressing feedback, making subtitle just name of the package ([`a68b3c3`]
 fix: Address feedback by reviewer test instruction added ([`c4aa6f5`](https://github.com/UBC-MDS/doeasyeda/commit/c4aa6f57da82a4250ae6cb90782e2885c66c9c2e))
 
 * fix : addressing feedback, making subtitle just name of the package ([`3e66d88`](https://github.com/UBC-MDS/doeasyeda/commit/3e66d88b4cd7ee2651d9be8b10966cd070528384))
+
+* fix : addressed by reviewer, updates read.me with test code ([`30cb168`](https://github.com/UBC-MDS/doeasyeda/commit/30cb16802d38f367954645a477160808b4b7ced0))
 
 
 ## v2.2.1 (2024-01-29)
