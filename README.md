@@ -4,10 +4,10 @@
     <img src="https://github.com/UBC-MDS/doeasyeda/blob/main/img/logo2.png?raw=true" alt="Alt text for image" width="200" height="200">
 </figure>
 
-[![ci-cd](https://github.com/UBC-MDS/doeasyeda/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/doeasyeda/actions/workflows/ci-cd.yml) [![Python 3.9.0](https://img.shields.io/badge/python-3.9.0-blue.svg)](https://www.python.org/downloads/release/python-390/) [![codecov](https://codecov.io/gh/UBC-MDS/doeasyeda/branch/main/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/doeasyeda) [![Documentation Status](https://readthedocs.org/projects/stock_analyzer/badge/?version=latest)](https://doeasyeda.readthedocs.io/en/latest/?badge=latest) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![version](https://img.shields.io/github/v/release/UBC-MDS/doeasyeda) ![release](https://img.shields.io/github/release-date/UBC-MDS/doeasyeda)
+[![ci-cd](https://github.com/UBC-MDS/doeasyeda/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/doeasyeda/actions/workflows/ci-cd.yml) [![Python 3.9.0](https://img.shields.io/badge/python-3.9.0-blue.svg)](https://www.python.org/downloads/release/python-390/) [![codecov](https://codecov.io/gh/UBC-MDS/doeasyeda/branch/main/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/doeasyeda) [![Documentation Status](https://readthedocs.org/projects/stock_analyzer/badge/?version=latest)](https://doeasyeda.readthedocs.io/en/latest/?badge=latest) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![version](https://img.shields.io/github/v/release/UBC-MDS/doeasyeda) ![release](https://img.shields.io/github/release-date/UBC-MDS/doeasyeda)
 
-**doeasyeda** 
----------------------------------------------------------------------------------------
+**doeasyeda**
+---------
 
 [Installation](#Installation) | [Functions](#Functions) | [Why doeasyeda](#Why-doeasyeda) | [Usage](#Usage)
 
@@ -57,7 +57,7 @@ This package includes four main function:
 * `interactive` (bool, optional): If `True`, enables interactive features such as zooming and panning, defaults to `False`.
 * `width`, `height` (int, optional): Dimensions of the chart, defaults to `None`.
 
-## Why doeasyeda?
+## Python Ecosystem Context
 
 **doeasyeda** positions itself as a valuable addition to the Python ecosystem, particularly in the realm of data visualization and EDA. While it shares its fundamental objective with existing packages like [pandas-profiling](https://github.com/ydataai/ydata-profiling) and [Dtale](https://pypi.org/project/dtale/), which provides comprehensive EDA reports with a single line of code, **doeasyeda** differentiates itself by focusing on customizable, individual plot generation. While pandas-profing is excellent for generating automated detailed reports on entire datasets, Dtale integrates advanced libraries like Plotly and Seaborn , **doeasyeda** allows users more control and flexibility in visualizing specific aspects of their data through its range of plotting functions from [altair ](https://altair-viz.github.io/index.html)library. Compared to altair, **doeasyeda** has the following key features:
 
@@ -87,6 +87,7 @@ $ poetry install
 ```
 
 4. To test the package, please run the following command
+
 ```
 $ pytest tests/
 $ pytest tests/ --cov=doeasyeda --cov-report=xml
