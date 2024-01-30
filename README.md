@@ -57,7 +57,7 @@ This package includes four main function:
 * `interactive` (bool, optional): If `True`, enables interactive features such as zooming and panning, defaults to `False`.
 * `width`, `height` (int, optional): Dimensions of the chart, defaults to `None`.
 
-## Why doeasyeda?
+## Python Ecosystem Context
 
 **doeasyeda** positions itself as a valuable addition to the Python ecosystem, particularly in the realm of data visualization and EDA. While it shares its fundamental objective with existing packages like [pandas-profiling](https://github.com/ydataai/ydata-profiling) and [Dtale](https://pypi.org/project/dtale/), which provides comprehensive EDA reports with a single line of code, **doeasyeda** differentiates itself by focusing on customizable, individual plot generation. While pandas-profing is excellent for generating automated detailed reports on entire datasets, Dtale integrates advanced libraries like Plotly and Seaborn , **doeasyeda** allows users more control and flexibility in visualizing specific aspects of their data through its range of plotting functions from [altair ](https://altair-viz.github.io/index.html)library. Compared to altair, **doeasyeda** has the following key features:
 
