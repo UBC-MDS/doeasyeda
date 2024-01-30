@@ -2,6 +2,23 @@
 
 
 
+## v2.2.4 (2024-01-30)
+
+### Fix
+
+* fix: addressed by reviewer, added CoC ([`5248de8`](https://github.com/UBC-MDS/doeasyeda/commit/5248de82f20c584a5c8a24e3e8699258d1fa095c))
+
+* fix: addressed by reviewer, added a link to contributing guidelines in readme ([`d5d3c4b`](https://github.com/UBC-MDS/doeasyeda/commit/d5d3c4be63d5e872402ff6f7ea4a6ecd3aee9b61))
+
+* fix: addressed by reviewers, changed function description in README ([`14238d6`](https://github.com/UBC-MDS/doeasyeda/commit/14238d6fc42d6e8048bb589da8b81e7ce22db4a3))
+
+### Unknown
+
+* Merge pull request #65 from UBC-MDS/hotfix/PR
+
+Hotfix/pr ([`56ae2fe`](https://github.com/UBC-MDS/doeasyeda/commit/56ae2fedc2e00c157f73eeca7b0d8f9ad4879888))
+
+
 ## v2.2.3 (2024-01-30)
 
 ### Fix
