@@ -42,16 +42,13 @@ This package offers four primary functions, each harnessing the power of the Alt
 This package includes four main function:
 
 1. `create_scatter_plot(df, x_col, y_col, size=60, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`
-Generates a scatter plot using the Altair visualization library with various customization options.
-
+   Generates a scatter plot using the Altair visualization library with various customization options.
 2. `create_hist_plot(df, x_col, y_col, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`
-Generates histogram using the Altair visualization library with various customization options.
-
+   Generates histogram using the Altair visualization library with various customization options.
 3. `create_line_plot(df, x_col, y_col, size=1, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`
-Generates a line plot using the Altair visualization library with various customization options.
-
+   Generates a line plot using the Altair visualization library with various customization options.
 4. `create_area_plot(df, x_col, y_col, color=None, title=None, x_title=None, y_title=None, tooltip=None, interactive=False, width=None, height=None)`
-Generates an area plot using the Altair visualization library with various customization options.
+   Generates an area plot using the Altair visualization library with various customization options.
 
 ### Common Parameters:
 
@@ -164,7 +161,7 @@ create_line_plot(df_grouped3, 'year', 'gdpPercap', color='continent',
 
 Online documentation can be found [here](https://doeasyeda.readthedocs.io/en/latest/?badge=latest).
 
-Publishing on [TestPyPi]() and [PyPi]() (forthcoming)).
+Publishing on [PyPi](https://pypi.org/project/doeasyeda/).
 
 ## Contributing
 
@@ -179,6 +176,7 @@ Interested in contributing? Check out the [contributing guidelines](https://doea
 `doeasyeda` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
 
 ## Code of Conduct
+
 The Code of Conduct can be found [`here`](https://doeasyeda.readthedocs.io/en/latest/conduct.html#).
 
 ## Reference
