@@ -42,6 +42,14 @@ def create_hist_plot(df, x_col, y_col, color=None, title=None,
     -------
     alt.Chart
         An Altair Chart object representing the scatter plot.
+
+    Example
+    -------
+    >>> data = pd.DataFrame({'category': ['A', 'A', 'B', 'B', 'C', 'C'],
+    ...                      'value': [10, 15, 10, 20, 5, 25]})
+    >>> create_hist_plot(data, x_col='category', y_col='value', color='category',
+    ...                  title='Histogram of Values by Category',
+    ...                  x_title='Category', y_title='Value', interactive=True)
     """
 
     # Validate dataframe

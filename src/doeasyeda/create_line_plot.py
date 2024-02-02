@@ -42,6 +42,17 @@ def create_line_plot(df, x_col, y_col, size=1, color=None, title=None,
     -------
     alt.Chart
         An Altair Chart object representing the scatter plot.
+
+    Example
+    -------
+    >>> data = pd.DataFrame({
+    ...     'year': [2000, 2001, 2002, 2003],
+    ...     'population': [100, 120, 90, 80],
+    ...     'continent': ['Asia', 'Europe', 'Africa', 'Americas']
+    ... })
+    >>> create_line_plot(data, 'year', 'population', size=1, color='continent',
+    ...                  title='Population Over Time by Continent',
+    ...                  x_title='Year', y_title='Population', interactive=True)
     """
 
     # Validate dataframe
