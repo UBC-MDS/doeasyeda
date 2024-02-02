@@ -44,6 +44,15 @@ def create_scatter_plot(df, x_col, y_col, size=60, color=None, title=None,
     -------
     alt.Chart
         An Altair Chart object representing the scatter plot.
+
+    Example
+    -------
+    >>> data = pd.DataFrame({'gdpPercap': [1000, 2000, 3000, 4000],
+    ...                      'lifeExp': [70, 80, 60, 65],
+    ...                      'continent': ['Asia', 'Europe', 'Africa', 'Americas']})
+    >>> create_scatter_plot(data, 'gdpPercap', 'lifeExp', size=60, color='continent',
+    ...                     title='Life Expectancy vs GDP Per Capita by Continent',
+    ...                     x_title='GDP Per Capita', y_title='Life Expectancy', interactive=True)
     """
 
     # Validate dataframe

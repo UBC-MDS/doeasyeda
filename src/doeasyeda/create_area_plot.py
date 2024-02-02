@@ -49,6 +49,14 @@ def create_area_plot(df, x_col, y_col, color=None, title=None,
     -------
     alt.Chart
         An Altair Chart object representing the area plot.
+
+    Example
+    -------
+    >>> data = pd.DataFrame({'year': [2000, 2001, 2002, 2003],
+    ...                      'population': [100, 120, 90, 80],
+    ...                      'continent': ['North America', 'North America', 'Europe', 'Europe']})
+    >>> create_area_plot(data, 'year', 'population', color='continent', title='Population Over Time by Continent',
+    ...                  x_title='Year', y_title='Population')
     """
 
     # Validate dataframe
