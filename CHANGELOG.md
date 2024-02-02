@@ -2,6 +2,33 @@
 
 
 
+## v2.2.5 (2024-02-02)
+
+### Fix
+
+* fix: addressed by M2 feedback, add examples in docstring ([`2bbb7af`](https://github.com/UBC-MDS/doeasyeda/commit/2bbb7afb0f5996c6474c6f7a1555b18b9197e7ef))
+
+### Unknown
+
+* Merge pull request #67 from UBC-MDS/documentation/readme-changelog-mds
+
+add examples in docstring ([`9510a48`](https://github.com/UBC-MDS/doeasyeda/commit/9510a484bdbfbd85eee0fd021d964de9fb72c2ea))
+
+* add pypi link ([`3585aea`](https://github.com/UBC-MDS/doeasyeda/commit/3585aeac6fbe7d698f34d9fe77dd2418936dc43c))
+
+* Merge pull request #66 from wqxxzd/hotfix/add-more-tests
+
+Hotfix/add more tests ([`b1c7aac`](https://github.com/UBC-MDS/doeasyeda/commit/b1c7aaca973ce327b2b16fd0b3f96fa92ec2e15e))
+
+* Update test_create_scatter_plot.py ([`dfdfdc9`](https://github.com/UBC-MDS/doeasyeda/commit/dfdfdc92aa3c22bf9319a29f78e19e8882dff3b6))
+
+* Update test_create_line_plot.py ([`01470dc`](https://github.com/UBC-MDS/doeasyeda/commit/01470dcc137dc324811410468418505c52251b13))
+
+* Update test_create_hist_plot.py ([`2e35bd2`](https://github.com/UBC-MDS/doeasyeda/commit/2e35bd22d753aec0afbc024df36203162007d5f3))
+
+* Update test_create_area_plot.py ([`6ad163d`](https://github.com/UBC-MDS/doeasyeda/commit/6ad163d35307014be0d3a2c9b039c6d33b76d363))
+
+
 ## v2.2.4 (2024-01-30)
 
 ### Fix
